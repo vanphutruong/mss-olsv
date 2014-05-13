@@ -1,0 +1,1 @@
+<link rel="stylesheet" href="<?php echo base_url('themes/default/home/home.css')?>" type="text/css">

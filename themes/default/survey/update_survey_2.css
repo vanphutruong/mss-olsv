@@ -1,0 +1,68 @@
+body{
+    padding-top: 0px !important;
+}
+
+.form-create {
+    max-width: 100%;
+}
+
+.top-bar h4{
+    color: white;
+    text-align: right;
+    line-height: 10px;
+}
+
+
+.control-group h5{
+    margin-left: 15%;
+}
+.control-group .radio{
+    margin-top: 10px;
+}
+
+.well .control-group .controls {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.row-fluid .span12 {
+    margin-top: 2%;
+}
+
+
+.search{
+    border: thin solid #CCCCCC;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.update_survey {
+    border: thin solid #CCCCCC;
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+
+.row-fluid .span6 {
+    width: 100%;
+}
+
+.btn {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 12px;
+    padding: 10px 40px;
+}
+
+.well .control-group {
+    padding: 10px 15px;
+}
+
+.chosen-container, .chosen-container li {
+    max-width: 100%;
+}

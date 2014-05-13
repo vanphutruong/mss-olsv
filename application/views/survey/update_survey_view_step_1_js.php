@@ -1,0 +1,1 @@
+<script type="text/javascript" src="<?php echo base_url('themes/default/survey/update_survey_1.js')?>"></script>

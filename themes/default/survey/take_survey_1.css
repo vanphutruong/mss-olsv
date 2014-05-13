@@ -1,0 +1,186 @@
+.row-fluid .span12 {
+    margin-top: 1%;
+}
+
+.container h3 {
+    float: none;
+}
+
+form {
+    margin: 0 auto;
+    /*max-width: 80%;*/
+    padding: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    position: relative;
+}
+
+.row-fluid .span6 {
+    width: 100%;
+}
+.well .control-group {
+    padding: 10px 15px;
+}
+
+.chosen-container, .chosen-container li {
+    max-width: 100%;
+}
+.container .row-fluid {
+    margin-top: 0% !important;
+}
+.well .control-group .control-label {
+    width: 130px;
+    margin-top: -5px;
+}
+@media screen and (max-width: 1024px) {
+    .well, .hero-unit, .accordion .accordion-heading + .accordion-body {
+        width: 730px;
+    }
+    .well .control-group .controls {
+        padding-left: 145px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .well, .hero-unit, .accordion .accordion-heading + .accordion-body {
+        width: 830px;
+    }
+    .well .control-group .controls {
+        padding-left: 145px;
+    }
+}
+.chosen-drop .chosen-results{
+    max-height: 100px;
+    z-index: 1;
+}
+.controls ul{
+    margin: 0;
+    width: 100%;
+}
+@media screen and (max-width: 1024px) {/*vertical*/ 
+    .well, .hero-unit, .accordion .accordion-heading + .accordion-body {
+        min-height: 780px !important;
+        border-radius: 4px 4px 0px 0px;
+        padding-bottom: 94px;           
+    }
+    .well .form-actions {
+        padding-left: 24.4%;
+    }
+}
+@media screen and (min-width: 1024px) {/*horizontal*/
+    .well, .hero-unit, .accordion .accordion-heading + .accordion-body {
+        min-height: 520px !important;
+        border-radius: 4px;
+        padding-bottom: 94px;  
+    }
+    .well .form-actions {
+        padding-left: 27.8%;
+    }
+}
+.form-horizontal{
+    margin-bottom: 0px;
+}
+@media only screen and (width: 320px) and (height: 480px) and (orientation: portrait){/*320x480*/
+    .well, .hero-unit, .accordion .accordion-heading + .accordion-body {
+        width: 95%;
+        min-height: 220px !important;
+        padding-bottom: 94px;
+    }
+    .well .control-group .controls {
+        float: left;
+        margin-left: 0;
+        margin-top: 26px;
+        padding: 0;
+        width: 260px;
+    }
+    .well .control-group .control-label {
+        width: 260px;
+    }
+}
+@media only screen and (width: 480px) and (height: 320px){/*480x320*/
+    .well, .hero-unit, .accordion .accordion-heading + .accordion-body {
+        width: 81%;
+        min-height: 170px !important;
+    }
+    .well .control-group .controls {
+        float: left;
+        margin-left: 0;
+        margin-top: 26px;
+        padding: 0;
+        width: 353px;
+    }
+    .well .control-group .control-label {
+        width: 260px;
+    }
+}
+@media only screen and (width: 360px) and (height: 640px){/*360x640*/
+    .well, .hero-unit, .accordion .accordion-heading + .accordion-body {
+        width: 95%;
+        min-height: 394px !important;
+    }
+    .well .control-group .controls {
+        float: left;
+        margin-left: 0;
+        margin-top: 26px;
+        padding: 0;
+        width: 307px;
+    }
+    .well .control-group .control-label {
+        width: 260px;
+    }
+}
+@media only screen and (width: 640px) and (height: 360px){/*640x360*/
+    .well, .hero-unit, .accordion .accordion-heading + .accordion-body {
+        width: 81%;
+        min-height: 200px !important;
+    }
+    .well .control-group .controls {
+        float: left;
+        margin-left: 0;
+        margin-top: 26px;
+        padding: 0;
+        width: 478px !important;
+    }
+    .well .control-group .control-label {
+        width: 260px;
+    }
+}
+@media only screen and (width: 768px) and (height: 1024px) {/*768x1024*/
+    .well, .hero-unit, .accordion .accordion-heading + .accordion-body {
+        width: 95%;
+    }
+}
+
+@media only screen and (width: 1024px) and (height: 768px) {/*1024x768*/
+    
+}
+@media only screen and (width: 800px) and (height: 1280px){/*800x1280*/
+    .well, .hero-unit, .accordion .accordion-heading + .accordion-body {
+        width: 95%;
+        min-height: 1035px !important;
+    }
+}
+@media only screen and (width: 1280px) and (height: 800px){/*1280x800*/
+    
+}
+@media only screen and (width: 980px) and (height: 1280px){/*980x1280*/
+    .well, .hero-unit, .accordion .accordion-heading + .accordion-body {
+        width: 95%;
+        min-height: 1030px !important;
+    }
+}
+@media only screen and (width: 1280px) and (height: 980px){/*1280x980*/
+    .well, .hero-unit, .accordion .accordion-heading + .accordion-body {
+        min-height: 340px !important;
+    }
+}
+@media only screen and (width: 1280px) and (height: 600px){/*1280x600*/
+    .well, .hero-unit, .accordion .accordion-heading + .accordion-body {
+        min-height: 350px !important;
+    }
+}
+@media only screen and (width: 600px) and (height: 1280px){/*600x1280*/
+    .well, .hero-unit, .accordion .accordion-heading + .accordion-body {
+        width: 95%;
+        min-height: 1065px !important;
+    }
+}

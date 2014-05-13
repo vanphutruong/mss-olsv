@@ -1,0 +1,12 @@
+.control-label{
+	padding-top: 5px;font-size: 1em;
+	font-weight: bold;
+}
+.well .control-group .control-label i{
+	color: #313131;
+}
+.container .span6{
+	margin: 0 auto 20px;
+	float: none !important;
+	width: 420px;
+}

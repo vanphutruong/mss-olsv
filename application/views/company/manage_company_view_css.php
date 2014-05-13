@@ -1,0 +1,1 @@
+<link rel="stylesheet" href="<?php echo base_url('themes/default/company/manage_company.css')?>" type="text/css">

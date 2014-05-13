@@ -1,0 +1,369 @@
+body{
+	padding-top: 0px !important;
+}
+.form-create {
+	max-width: 100%;
+}
+.well .control-group {
+    box-shadow: none;
+    border: none;
+}
+.radio_info{
+    border-bottom: 1px solid #C2C2C2;
+    box-shadow: 0 1px 0 #FFFFFF;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-top: 10px
+}
+.radio{
+    box-shadow: none;
+    border: none;    
+}
+.btn_submit:last-child{
+    padding: 0px;
+}
+.span12 .title_header{
+    color: #FFFFFF;
+    margin-top: 10px;
+    text-align: center;
+}
+.container h3 {
+    margin-top: 35px;
+}
+.title_content{
+    color: #000000;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-bottom: 0px;
+}
+@media screen and (max-width: 1024px) {
+        
+    .well, .hero-unit, .accordion .accordion-heading + .accordion-body {
+        min-height: 745px;
+        border-radius: 4px 4px 0px 0px;   
+    }
+}
+@media screen and (min-width: 1024px) {
+        
+    .well, .hero-unit, .accordion .accordion-heading + .accordion-body {
+        min-height: 484px;
+        border-radius: 4px 4px 0px 0px;  
+    }
+}
+.top-bar h3{
+    margin-left: 10%;
+    float: left;
+    width: 80%;
+    text-align: center;
+    line-height: 10px;
+    font-size: 1.6em;
+}
+
+.control-group h5{
+    margin-left: 5%;
+}
+.control-group .radio{   
+    margin-left: -25px;
+}
+.row-fluid .span12 {
+    margin-top: 2%;
+    text-align: center;
+}
+
+form {
+    margin: 2% auto;
+    position: relative;
+}
+.row-fluid .span6 {
+    width: 100%;
+}
+.chosen-container, .chosen-container li {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1024px) {/*horizontal*/
+    .well, .hero-unit, .accordion .accordion-heading + .accordion-body {
+        width: 730px;
+    }
+    .well .form-actions {
+        padding-left: 170px;
+    }
+}
+@media screen and (min-width: 1024px) {/*vertical*/
+    .well, .hero-unit, .accordion .accordion-heading + .accordion-body {
+        width: 830px;
+    }
+    .well .form-actions {
+        /*padding-left: 220px;*/
+    }
+}
+.well .control-group .controls {
+    padding-left: 17px;
+    text-align: left;
+    margin-right: 35px;
+}
+.well .form-actions {
+    text-align: left;
+    margin-top: -10px;
+    padding-bottom: 35px;
+}
+.well .control-group {
+    padding: 10px 0px;
+}
+
+.chosen-container, .chosen-container li {
+    max-width: 100%;
+}
+.container .row-fluid {
+    margin-top: 0% !important;
+}
+h3,h4{
+    color: #FFF;
+}
+.well .control-group {
+    box-shadow: none;
+    border: none;
+}
+.radio_info{
+    border-bottom: 1px solid #C2C2C2;
+    box-shadow: 0 1px 0 #FFFFFF;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-top: 10px
+}
+.radio{
+    box-shadow: none;
+    border: none;    
+}
+.radio_info:last-child{
+    box-shadow: none;
+    border: none;
+}
+.span12 .title_header{
+    color: #FFFFFF;
+    margin-top: 10px;
+    text-align: center;
+}
+.container h3 {
+    margin-top: -15px;
+}
+.title_content{
+    color: #000000;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+@media screen and (max-width: 1024px) {
+        
+    .well, .hero-unit, .accordion .accordion-heading + .accordion-body {
+        min-height: 795px;
+        border-radius: 4px 4px 0px 0px;   
+    }
+}
+@media screen and (min-width: 1024px) {
+        
+    .well, .hero-unit, .accordion .accordion-heading + .accordion-body {
+        min-height: 534px;
+        border-radius: 4px 4px 0px 0px;  
+    }
+}
+.row-fluid .span12 {
+    margin-top: 1%;
+}
+form {
+    margin: 0 auto;
+    /*max-width: 80%;*/
+    padding: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    position: relative;
+}
+.row-fluid .span6 {
+    width: 100%;
+}
+.well .control-group {
+    padding: 10px 15px;
+}
+
+.chosen-container, .chosen-container li {
+    max-width: 100%;
+}
+.container .row-fluid {
+    margin-top: 0% !important;
+}
+.well .control-group .control-label {
+    width: 130px;
+    margin-top: -5px;
+}
+@media screen and (max-width: 1024px) {
+    .well, .hero-unit, .accordion .accordion-heading + .accordion-body {
+        width: 730px;
+    }
+    .well .control-group .controls {
+        padding-left: 18px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .well, .hero-unit, .accordion .accordion-heading + .accordion-body {
+        width: 830px;
+    }
+    .well .control-group .controls {
+        padding-left: 2%;
+    }
+}
+.chosen-drop .chosen-results{
+    max-height: 100px;
+    z-index: 1;
+}
+.controls ul{
+    margin: 0;
+    width: 100%;
+}
+@media screen and (max-width: 1024px) {/*vertical*/ 
+    .well, .hero-unit, .accordion .accordion-heading + .accordion-body {
+        min-height: 820px;
+        border-radius: 4px 4px 0px 0px;   
+    }
+    .well .form-actions {
+        padding-left: 15.4%;
+        padding-right: 15.4%;
+    }
+}
+@media screen and (min-width: 1024px) {/*horizontal*/
+    .well, .hero-unit, .accordion .accordion-heading + .accordion-body {
+        min-height: 610px;
+        border-radius: 4px;  
+    }
+    .well .form-actions {
+        padding-left: 27.8%;
+        padding-right: 27.8%;
+    }
+}
+.form-horizontal{
+    margin-bottom: 0px;
+}
+@media only screen and (width: 320px) and (height: 480px) and (orientation: portrait){/*320x480*/
+    .well, .hero-unit, .accordion .accordion-heading + .accordion-body {
+        width: 95%;
+        min-height: 480px;
+    }
+    .well .control-group .controls {
+        float: left;
+        margin-left: 0;
+        margin-top: 26px;
+        padding: 0;
+        width: 260px;
+    }
+    .well .control-group .control-label {
+        width: 260px;
+    }
+    .main-wrapper .content {
+        min-height: 480px;
+    }
+    .btn_submit:last-child{
+        margin-top: 10px;
+    }
+}
+@media only screen and (width: 480px) and (height: 320px){/*480x320*/
+    .well, .hero-unit, .accordion .accordion-heading + .accordion-body {
+        width: 81%;
+        min-height: 320px;
+    }
+    .well .control-group .controls {
+        float: left;
+        margin-left: 0;
+        margin-top: 26px;
+        padding: 0;
+        width: 353px;
+    }
+    .well .control-group .control-label {
+        width: 260px;
+    }
+    .main-wrapper .content {
+        min-height: 320px;
+    }
+    .btn_submit:last-child{
+        margin-top: 10px;
+    }
+}
+@media only screen and (width: 360px) and (height: 640px){/*360x640*/
+    .well, .hero-unit, .accordion .accordion-heading + .accordion-body {
+        width: 95%;
+        min-height: 640px;
+    }
+    .well .control-group .controls {
+        float: left;
+        margin-left: 0;
+        margin-top: 26px;
+        padding: 0;
+        width: 307px;
+    }
+    .well .control-group .control-label {
+        width: 260px;
+    }
+    .main-wrapper .content {
+        min-height: 640px;
+    }
+    .btn_submit:last-child{
+        margin-top: 10px;
+    }
+}
+@media only screen and (width: 640px) and (height: 360px){/*640x360*/
+    .well, .hero-unit, .accordion .accordion-heading + .accordion-body {
+        width: 81%;
+        min-height: 360px;
+    }
+    .well .control-group .controls {
+        float: left;
+        margin-left: 0;
+        margin-top: 26px;
+        padding: 0;
+        width: 478px !important;
+    }
+    .well .control-group .control-label {
+        width: 260px;
+    }
+}
+@media only screen and (width: 768px) and (height: 1024px) {/*768x1024*/
+    .well, .hero-unit, .accordion .accordion-heading + .accordion-body {
+        width: 95%;
+        min-height: 880px;
+    }
+}
+
+@media only screen and (width: 1024px) and (height: 768px) {/*1024x768*/
+    
+}
+@media only screen and (width: 800px) and (height: 1280px){/*800x1280*/
+    .well, .hero-unit, .accordion .accordion-heading + .accordion-body {
+        width: 95%;
+        min-height: 1140px !important;
+    }
+}
+@media only screen and (width: 1280px) and (height: 800px){/*1280x800*/
+    
+}
+@media only screen and (width: 980px) and (height: 1280px){/*980x1280*/
+    .well, .hero-unit, .accordion .accordion-heading + .accordion-body {
+        width: 95%;
+        min-height: 1140px !important;
+    }
+}
+@media only screen and (width: 1280px) and (height: 980px){/*1280x980*/
+    .well, .hero-unit, .accordion .accordion-heading + .accordion-body {
+        min-height: 840px !important;
+    }
+}
+@media only screen and (width: 1280px) and (height: 600px){/*1280x600*/
+    .well, .hero-unit, .accordion .accordion-heading + .accordion-body {
+        min-height: 450px;
+    }
+}
+@media only screen and (width: 600px) and (height: 1280px){/*600x1280*/
+    .well, .hero-unit, .accordion .accordion-heading + .accordion-body {
+        width: 95%;
+        min-height: 1140px !important;
+    }
+}

@@ -1,0 +1,1 @@
+<link rel="stylesheet" href="<?php echo base_url('themes/default/survey/thankyou_take_survey.css')?>" type="text/css" />

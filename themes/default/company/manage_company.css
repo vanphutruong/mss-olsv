@@ -1,0 +1,286 @@
+.row-fluid {
+    width: 33.5%;
+    margin: 0 auto;
+    width: 62.5%;
+}
+.row-fluid .span3 {
+    display: block;
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.pull-right.text-right {
+    text-align: center;
+}
+
+.pull-right {
+    float: none;
+}
+
+.pull-right p{
+    margin: 0 auto;
+}
+.main-wrapper{
+    margin: 0px auto;
+    background:url(../images/bg_main_horizontal.jpg) no-repeat;
+    height: 768px;
+    width: 1024px;
+}
+@media screen and (max-width: 1024px) {
+    .main-wrapper{
+        background: url(../images/bg_main_vertical.png) repeat-y;
+        width: 768px;
+        min-height: 1023px;
+    }
+    .row-fluid .span3 {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 1024px) {
+        .main-wrapper{
+        background: url(../images/bg_main_horizontal.jpg) repeat-y;
+        width: 1024px;
+        min-height: 767px;  
+    }
+    .row-fluid .span3 {
+        width: 100%;
+    }
+}
+@media only screen and (width: 800px){
+    .content {
+        min-height: 1023px;
+    }
+    .row-fluid .span3 {
+        width: 100%;
+    }
+}
+@media only screen and (width: 600px) and (height: 1280px ){
+    .main-wrapper{
+        margin: 0px auto;
+        background:url(../images/bg_main_vertical.png) no-repeat;
+        width: 100% !important;
+        height: 100%;
+        background-size: 100% 100%;
+        min-height: 1280px;
+    }
+    .content {
+        min-height: 1207px;
+    }
+    .row-fluid .span3 {
+        width: 100%;
+    }
+}
+@media only screen and (width: 1280px) and (height: 600px ){
+    .main-wrapper{
+        margin: 0px auto;
+        background:url(../images/bg_main_horizontal.jpg) no-repeat;
+        width: 100% !important;
+        height: 100%;
+        background-size: 100% 100%;
+        min-height: 527px;
+    }
+    .main-wrapper .content{
+        min-height: 527px;
+    }
+    .row-fluid .span3 {
+        width: 100%;
+    }
+    .row-fluid .span3 {
+        width: 100%;
+    }
+}
+@media only screen and (width: 320px) and (height: 480px) and (orientation: portrait){/*320x480*/
+    .main-wrapper{
+        width: 100% !important;
+        height: 100% !important;
+        min-height: 480px !important;
+    }
+    .main-wrapper .content{
+        min-height: 407px;
+    }
+    .row-fluid .span3 {
+        width: 100%;
+    }
+}
+@media only screen and (width: 480px) and (height: 320px){/*480x320*/
+    .main-wrapper{
+        width: 100% !important;
+        height: 100% !important;
+        min-height: 320px !important;
+    }
+    .main-wrapper .content{
+        min-height: 247px;
+    }
+    .row-fluid .span3 {
+        height: 35px;
+    }
+    .span3 p{
+        margin-top: -15px;
+    }
+    .container h3{
+        margin-top: -15px;
+    }
+    .infobox.well {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .row-fluid .span3 {
+        width: 100%;
+    }
+    .container h3{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+@media only screen and (width: 360px) and (height: 640px){/*360x640*/
+    .main-wrapper{
+        width: 100% !important;
+        height: 100% !important;
+        min-height: 640px !important;
+    }
+    .main-wrapper .content{
+        min-height: 567px;
+    }
+    .row-fluid .span3 {
+        width: 100%;
+    }
+}
+@media only screen and (width: 640px) and (height: 360px){/*640x360*/
+    .main-wrapper{
+        width: 100% !important;
+        height: 100% !important;
+        min-height: 360px !important;
+    }
+    .main-wrapper .content{
+        min-height: 287px;
+    }
+    .row-fluid .span3 {
+        height: 35px;
+    }
+    .span3 p{
+        margin-top: -15px;
+    }
+    .container h3{
+        margin-top: -15px;
+    }
+    .infobox.well {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .row-fluid .span3 {
+        width: 100%;
+    }
+    .container h3{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+@media only screen and (width: 768px) and (height: 1024px) {/*768x1024*/
+    .main-wrapper{
+        width: 100% !important;
+        height: 100% !important;
+        min-height: 1024px !important;
+    }
+    .main-wrapper .content{
+        min-height: 951px;
+    }
+    .row-fluid .span3 {
+        width: 100%;
+    }
+}
+@media only screen and (width: 1024px) and (height: 768px) {/*1024x768*/
+    .main-wrapper{
+        width: 100% !important;
+        height: 100% !important;
+        min-height: 768px !important;
+    }
+    .main-wrapper .content{
+        min-height: 695px;
+    }
+    .row-fluid .span3 {
+        width: 100%;
+    }
+}
+@media only screen and (width: 800px) and (height: 1280px){/*800x1280*/
+    .main-wrapper{
+        width: 100% !important;
+        height: 100% !important;
+        min-height: 1280px !important;
+        background-size: 100% 100%;
+    }
+    .main-wrapper .content{
+        min-height: 1207px;
+    }
+    .row-fluid .span3 {
+        width: 100%;
+    }
+}
+@media only screen and (width: 1280px) and (height: 800px){/*1280x800*/
+    .main-wrapper{
+        width: 100% !important;
+        height: 100% !important;
+        min-height: 800px !important;
+        background-size: 100% 100%;
+    }
+    .main-wrapper .content{
+        min-height: 727px;
+    }
+    .row-fluid .span3 {
+        width: 100%;
+    }
+}
+@media only screen and (width: 980px) and (height: 1280px){/*980x1280*/
+    .main-wrapper{
+        width: 100% !important;
+        height: 100% !important;
+        min-height: 1280px !important;
+        background-size: 100% 100%;
+    }
+    .main-wrapper .content{
+        min-height: 1207px;
+    }
+    .row-fluid .span3 {
+        width: 100%;
+    }
+}
+@media only screen and (width: 1280px) and (height: 980px){/*1280x980*/
+    .main-wrapper{
+        width: 100% !important;
+        height: 100% !important;
+        min-height: 980px !important;
+        background-size: 100% 100%;
+    }
+    .main-wrapper .content{
+        min-height: 907px;
+    }
+    .row-fluid .span3 {
+        width: 100%;
+    }
+}
+@media only screen and (width: 1280px) and (height: 600px){/*1280x600*/
+    .main-wrapper{
+        width: 100% !important;
+        height: 100% !important;
+        min-height: 600px !important;
+    }
+    .main-wrapper .content{
+        min-height: 527px;
+    }
+    .row-fluid .span3 {
+        width: 100%;
+    }
+}
+@media only screen and (width: 600px) and (height: 1280px){/*600x1280*/
+    .main-wrapper{
+        width: 100% !important;
+        height: 100% !important;
+        min-height: 1280px !important;
+    }
+    .main-wrapper .content{
+        min-height: 1207px;
+    }
+    .row-fluid .span3 {
+        width: 100%;
+    }
+}

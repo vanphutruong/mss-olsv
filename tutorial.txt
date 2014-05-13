@@ -1,0 +1,98 @@
+To install project, please follow step by step below:
+
+1. In the root directory of the project:
+
+	1.1 Open file ".htaccess.default" and save as to ".htaccess"
+	or rename to ".htaccess".
+
+	1.2 Open file "index.default.php" and save as to "index.php"
+	or rename to "index.php".
+
+2. Go to "/application/config" directory.
+	
+	2.1 Open file "config.default.php" and save as to "config.php"
+	or rename to "config.php".
+
+	Next: open this file and do this:
+
+		Step 1 - Find line code "$config['base_url']"  -  ( default: line 17 ) and change:
+	from "http://localhost/" to "path to the root directory of the project".
+
+	Example: http://vsi-international/mss
+	
+		Step 2 - Find line code "$config['sess_use_database']	= FALSE;" and change value:
+	from "FALSE" to "TRUE".
+
+	Required: "$config['sess_use_database']	= TRUE;"
+
+	2.2 Open file "database.default.php" and save as to "database.php"
+	or rename to "database.php".
+
+	Next: open this file and do this:
+
+	Step 1 - go to line 51 (default line 51)
+
+	Your will see the code:
+
+		$db['default']['hostname'] = 'localhost';
+		$db['default']['username'] = 'root';
+		$db['default']['password'] = '';
+		$db['default']['database'] = 'database_name';
+		$db['default']['dbdriver'] = 'mysql';
+		$db['default']['dbprefix'] = '';
+		$db['default']['pconnect'] = TRUE;
+		$db['default']['db_debug'] = TRUE;
+		$db['default']['cache_on'] = FALSE;
+		$db['default']['cachedir'] = '';
+		$db['default']['char_set'] = 'utf8';
+		$db['default']['dbcollat'] = 'utf8_general_ci';
+		$db['default']['swap_pre'] = '';
+		$db['default']['autoinit'] = TRUE;
+		$db['default']['stricton'] = FALSE;
+
+	Now, you need to configure the database connection.
+
+	Change:
+		Line 37:	'localhost' => "Database host name"  # Examlple: http://vsi-international/my-sqlserver
+		Line 38:	'root' => 'username access to database'.
+		Line 39:	'' => 'password access to database'.
+		Line 41:	'database_name' => 'database name of the project'.
+
+3. Go to "/application/config" directory.
+	
+	Open file "constants.php" and:
+
+	3.1 Find line code "define('BASE_URL', 'http://localhost/onlinesurvey/olsv-bpotech/');"
+	change:
+		"http://localhost/onlinesurvey/olsv-bpotech/" ==> "path to the root directory of the project".
+
+	3.2 Find line code "define('DEFAULT_PAGE_TITLE', 'Online Survey');"
+	change:
+		"Online Survey"  ==> "Your page title default".
+
+	3.2 Find line code "define('DEFAULT_PAGE_TITLE', 'Online Survey');"
+	change:
+		"Online Survey"  ==> "Your page title default".
+
+	3.3 Config admin email:
+		Find the code and enter the corresponding value to setting your email:
+
+		define('ADMIN_MAIL','localhost_wampserver@yahoo.com');
+
+		define('USERNAME','localhost_wampserver@yahoo.com');
+
+		define('PASSWORD','Abc123...');
+
+		define('HOST_MAIL','smtp.mail.yahoo.com');
+
+		define('ALT_BODY_FORGOT_ID', 'This email is feedback requirements reminiscent username');
+
+		define('ALT_BODY_FORGOT_PASSWORD', 'This email is feedback requirements reminiscent password');
+
+		define('ALT_BODY_ACTIVE_ACCOUNT', 'This email contains information to activate your account');
+
+		define('PORT',587);
+
+		define('SMTPSECURE','tls'); // or 'ssl'
+		
+Thank you !

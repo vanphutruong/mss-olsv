@@ -1,0 +1,8 @@
+/*	CSS for Login page 	*/
+
+.span5 form {
+    padding: 25px;
+}
+.alert.alert-error{
+	color: red;
+}
